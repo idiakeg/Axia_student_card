@@ -27,8 +27,7 @@ body {
 .wrapper {
     max-width: 1280px;
     width: 70%;
-    margin-inline: auto;
-    margin-top: 8ch;
+    margin: 5rem auto;
     display: grid;
     gap: 3rem;
     padding-bottom: 2rem;

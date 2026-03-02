@@ -3,7 +3,7 @@ import { subjectsData } from "../data";
 
 const StudentHeader = () => {
     const total = subjectsData.reduce((acc, curr) => acc + curr.grade, 0);
-    const average = total / subjectsData.length;
+    const average = Math.ceil(total / subjectsData.length);
 
     return (
         <div className="student_header_container">
