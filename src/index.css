@@ -31,6 +31,7 @@ body {
     margin-top: 8ch;
     display: grid;
     gap: 3rem;
+    padding-bottom: 2rem;
 }
 
 .no_subj_found {
@@ -43,11 +44,5 @@ body {
 @media screen and (max-width: 910px) {
     .wrapper {
         width: 90%;
-    }
-}
-
-@media screen and (max-width: 710px) {
-    .wrapper {
-        width: 95%;
     }
 }
