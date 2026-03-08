@@ -26,7 +26,7 @@ const SubjectCard = ({ subject, grade, teacher }) => {
                         setisExpanded((prev) => !prev);
                     }}
                 >
-                    expand
+                    {isExpanded ? "collapse" : "expand"}
                 </button>
             </div>
         </div>
